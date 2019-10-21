@@ -13,5 +13,12 @@
         "psr-4": {
             "Amoungui\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amoungui\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }

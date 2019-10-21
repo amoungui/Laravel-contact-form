@@ -1,2 +1,3 @@
-# contact-form
-This is the contact-form package with laravel framework, ease to generate form contact and  send message to admin 
+# Contact form package
+
+## This is the contact form package to save contact query to database and send email to admin

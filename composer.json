@@ -1,0 +1,17 @@
+{
+    "name": "amoungui/contact-form",
+    "description": "This is the contact form package to save contact query to database and send email to admin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Amoungui Serge",
+        "email": "samoungui@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Amoungui\\Contact\\": "src/"
+        }
+    }
+}

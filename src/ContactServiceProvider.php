@@ -15,6 +15,7 @@ class ContactServiceProvider extends ServiceProvider{
         //defined the file which are going to be published
         $this->publishes([
             __DIR__.'/config/contact.php' => config_path('contact.php'),
+            __DIR__.'/views' => resource_path('views/vendor/contact'),
             __DIR__.'/migrations/2019_10_21_051934_create_contacts_table.php' => base_path('database/migrations/2019_10_21_051934_create_contacts_table.php')
         ]);        
     }

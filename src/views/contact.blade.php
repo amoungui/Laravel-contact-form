@@ -10,19 +10,19 @@
 <body>
     <div class="container">
         <h1>Contact Us</h1>
-    <form action="{{route('contact')}}" method="post">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
-            </div>
-            <div class="form-group">
-              <label for="email">Email address</label>
-              <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <textarea name="message" class="form-control" id="" cols="30" rows="10" placeholder="Your Message"></textarea><br>
-            <button type="submit" class="btn btn-primary">Send</button>
-        </form>
+        <form action="{{route('contact')}}" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <textarea name="message" class="form-control" id="" cols="30" rows="10" placeholder="Your Message"></textarea><br>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
